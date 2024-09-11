@@ -1,0 +1,81 @@
+.grid{
+    width: 40em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: (12,1fr);
+    grid-template-rows: (6,1fr);
+    gap: 5px;
+}
+.child{
+    display: grid;
+    background-color: #2faf2f;
+    place-items: center;
+}
+.c1{
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+.c2{
+    grid-column: 1/7;
+    grid-row: 2/3;
+}
+.c3{
+    grid-column: 7/13;
+    grid-row: 2/3;
+}
+.c4{
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+.c5{
+    grid-column: 5/9;
+    grid-row: 3/4;
+}
+.c6{
+    grid-column: 9/13;
+    grid-row: 3/4;
+}
+.c7{
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+.c8{
+    grid-column: 4/7;
+    grid-row: 4/5;
+}
+.c9{
+    grid-column:7/10 ;
+    grid-row: 4/5;
+}
+.c10{
+    grid-column:10/13 ;
+    grid-row: 4/5;
+}
+.c11{
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+.c12{
+    grid-column: 3/5;
+    grid-row: 5/6;
+}
+.c13{
+    grid-column: 5/7;
+    grid-row: 5/6;
+}
+.c14{
+    grid-column: 7/9;
+    grid-row: 5/6;
+}
+.c15{
+    grid-column: 9/11;
+    grid-row: 5/6;
+}
+.c16{
+    grid-column: 11/13;
+    grid-row: 5/6;
+}
+.c17{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
